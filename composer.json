@@ -1,5 +1,5 @@
 {
-    "name": "kriswallsmith/assetic",
+    "name": "mikelohmann/assetic",
     "description": "Asset Management for PHP",
     "keywords": ["assets", "compression", "minification"],
     "homepage": "https://github.com/kriswallsmith/assetic",
@@ -14,6 +14,9 @@
     ],
     "require": {
         "php": ">=5.3.1"
+    },
+    "replace": {
+        "kriswallsmith/assetic":    "self.version"
     },
     "autoload": {
         "psr-0": { "Assetic": "src/" }
