@@ -1,5 +1,5 @@
 {
-    "name": "kriswallsmith/assetic",
+    "name": "icans/assetic",
     "minimum-stability": "dev",
     "description": "Asset Management for PHP",
     "keywords": ["assets", "compression", "minification"],
@@ -31,6 +31,9 @@
         "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
         "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
         "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin"
+    },
+    "replace": {
+        "kriswallsmith/assetic": "self.version"
     },
     "autoload": {
         "psr-0": { "Assetic": "src/" },
